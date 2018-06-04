@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: Helvetica;
+  min-height: 100vh;
+
+}
+
+.panel {
+  background: url("../img/fon.png");
+  background-repeat: repeat;
+  height: 36px;
+  line-height: 36px;
+  padding-right: 20px;
+
+}
+
+.panel li {
+  display: inline-block;
+  float: right;
+}
+
+.panel a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 14px;
+  padding-right: 9px;
+}
+
+.panel li:hover {
+  background: #4eabda;
+  height: 36px;
+  line-height: 36px;
+}
+
+.panel li:nth-child(2) {
+  padding-left: 36px;
+  background: url('../img/inventicons.png');
+  background-repeat: no-repeat;
+  background-position-x: 17px;
+  background-position-y: 7px;
+
+}
+
+.panel li:nth-child(3) {
+  padding-right: 5px;
+  border-right: 1px solid #56a2dc;
+}
+
+.panel li:first-child {
+ background: linear-gradient(to top, #4faedb, #2f7cc5);
+}
+
+span {
+  text-decoration: underline;
+}
+
+.form {
+  width: 560px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+
+}
+
+.caption {
+  background: rgba(15, 15, 15, 0.5);
+  font-size: 24px;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.content {
+  background: rgba(15, 15, 15, 0.5);
+  padding-left: 141px;
+  padding-right: 141px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+.facebook {
+  background: linear-gradient(to top, #2f4078, #3d5699);
+  display: inline-block;
+  height: 33px;
+  line-height: 33px;
+  width: 272px;
+  border-radius: 5px;
+}
+
+.facebook a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bold {
+  padding-left: 31px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.bold1 {
+  display: inline-block;
+  height: 33px;
+  border-right: 1px solid #4c68a9;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.bold3 {
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+.bold3:before {
+  position: absolute;
+  top:6px;
+  left:89px;
+  width: 5px;
+  border: 1px solid #fff;
+  content: "";
+  transform: rotate(40deg);
+}
+
+.bold3:after {
+  position: absolute;
+  top:9px;
+  left:89px;
+  width: 5px;
+  border: 1px solid #fff;
+  content: "";
+  transform: rotate(140deg);
+}
+
+
+
+.line {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+
+.line:before {
+  position: absolute;
+  top: 170px;
+  left:141px;
+  width: 124px;
+  border-top: 1px solid #b5aeae;
+  border-bottom: 1px solid #000;
+  content: "";
+}
+
+.line:after {
+  position: absolute;
+  top: 170px;
+  right:141px;
+  width: 124px;
+  border-top: 1px solid #b5aeae;
+  border-bottom: 1px solid #000;
+  content: "";
+}
+
+.OU {
+  text-decoration: none;
+  color: #838482;
+}
+
+.question {
+  color: #fff;
+}
+
+.form2 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 15px;
+  background: #0f0f0f;
+  border: none;
+  border-bottom: 1px solid #666;
+}
+
+input[type="text"] {
+  color: #fff;
+  padding-left: 17px;
+}
+
+input[type="email"] {
+  color: #fff;
+  padding-left: 17px;
+}
+
+input[type="password"] {
+  color: #fff;
+  padding-left: 17px;
+
+}
+
+input[type="text"]::placeholder {
+  color: #fff;
+}
+
+input[type="email"]::placeholder {
+  color: #fff;
+}
+
+input[type="password"]::placeholder {
+  color: #fff;
+}
+
+input {
+  outline:none;
+}
+
+.form2:hover {
+  background: #1b5288;
+  box-shadow:1px 0px 10px 3px rgba(65,113,142,1);
+  border-bottom: 1px solid transparent;
+}
+
+.
+
+.check {
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.check input, label {
+  vertical-align: middle;
+}
+
+
+.account {
+  margin-top: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  display: block;
+  background: linear-gradient(to top, #2c7bc4, #4faddb);
+  width: 150px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 4px;
+}
+
+.account a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.agree {
+  margin-top: 17px;
+  margin-left: -10px;
+  width: 310px;
+  font-size: 11px;
+  text-align: center;
+  ;
+}
+
+
+@font-face {
+  font-family: "My font";
+  src:url('../font/HelveticaNeueLight.eot') format('embedded-opentype');
+  src: url('../font/HelveticaNeueLight.ttf') format('truetype'),
+       url('../font/HelveticaNeueLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
